@@ -14,7 +14,10 @@
     <header class="header">
         <div class="header_container">
             <div class="header_nav">
-                <img src="./img/header_logo.svg" alt="img">
+                <picture>
+                    <source media="(max-width:768px)" srcset="./img/header_logo_tablet.svg">
+                    <img src="./img/header_logo.svg" alt="img">
+                </picture>
                 <div class="header_list">
                     <ul>
                         <li><a href="">Home</a></li>
@@ -36,6 +39,9 @@
                         <img src="./img/header_instagram.svg" alt="img">
                     </a>
                 </div>
+                <button>
+                    <img src="./img/header_hamburger.svg" alt="img">
+                </button>
             </div>
             <h1><span>Agro</span> Practice </h1>
             <div class="header_text">
@@ -44,7 +50,17 @@
                     Our students
                     are thoroughly trained to work on the farm.</h3>
             </div>
-            <img class="header_people" src="./img/header_staff.png" alt="img">
+            <picture>
+                <source media="(max-width:321px)" srcset="./img/header_staff_(320px).png">
+                <img class="header_people" src="./img/header_staff.png" alt="img">
+            </picture>
+            <div class="header__circuits">
+                <div class="ciruits-inner">
+                    <div class="header_circuitd"></div>
+                    <div class="header_circuitd"></div>
+                    <div class="header_circuitd"></div>
+                </div>
+            </div>
             <div class="form">
                 <div class="form_container">
                     <div class="form_inner">
@@ -206,12 +222,6 @@
         </footer_background_container>
         </div>
     </footer>
-
-
-
-
-
-
 </body>
 
 </html>

@@ -1,0 +1,283 @@
+@media (max-width: 768px) {
+
+    .header_container {
+        padding: 20px 40px 0px;
+    }
+
+    .header_nav {}
+
+    .header_nav picture {
+        min-width: 122px;
+        margin-right: 180px;
+    }
+
+    .header_nav button {
+        display: block;
+        min-width: 40px;
+    }
+
+    .header_list {
+        display: none;
+    }
+
+
+    .header_links img {
+        display: block;
+        min-width: 38px;
+    }
+
+
+    .main_text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .main_background {
+        font-size: 72px;
+        line-height: 91px;
+    }
+
+    .main_inner {
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .main_inner img {
+        width: 181px;
+        height: 186px;
+        display: block;
+    }
+
+    .team_background_text {
+        font-size: 64px;
+        line-height: 81px;
+        top: -387px;
+    }
+
+    .footer {}
+
+    .footer_container {
+        padding: 60px 40px;
+    }
+
+    .footer_inner {
+        gap: 22px;
+    }
+
+    .footer_form {
+        min-width: 334px;
+        gap: 25px;
+        padding: 40px 0px;
+    }
+
+    .footer_form p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .footer_form input {
+        padding: 25px 35px;
+        border-radius: 50px;
+    }
+
+    .footer_form button {
+        padding: 25px 75px;
+    }
+
+    .footer_info {}
+
+    .footer_title {
+        font-size: 28px;
+        line-height: 35px;
+        margin: 162px 0px 40px;
+    }
+
+
+    .footer_background_text {
+        font-size: 72px;
+        line-height: 91px;
+        left: 367px;
+        bottom: 70px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .header_container {
+        padding: 9px 20px 0px;
+    }
+
+   
+    .header_nav picture {
+        margin-right: 0px;
+    }
+
+    .header_links {
+        display: none;
+    }
+
+    .header_container h1 {
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+
+    .header_text {
+        width: 280px;
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 34px;
+    }
+
+    .header_people {
+        margin-bottom: 33px;
+    }
+
+    .header__circuits {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+
+    .ciruits-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .header_circuitd {
+        width: 15px;
+        height: 15px;
+        background: var(--color8);
+        border-radius: 50%;
+    }
+
+    .header_circuitd:hover {
+        transition: 0.2s;
+        color: var(--color2);
+    }
+
+
+    .form_container {
+        margin-bottom: 50px;
+    }
+
+
+    .form_inner p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .form_inner input {
+        border-radius: 60px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 18px 35px;
+
+    }
+
+
+    .form_inner button {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 18px 72px;
+    }
+
+
+    .main_block img {
+        display: block;
+        width: 192px;
+        order: 1;
+    }
+
+    .main_block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 35px;
+    }
+
+    .main_block .main_text {
+        order: 2;
+    }
+
+    .main_text {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .main_background {
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 35px;
+    }
+
+
+    .team_container h1 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .team_text {
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 280px;
+
+    }
+
+  
+    .team_background_text {
+        font-size: 28px;
+        line-height: 35px;
+        top: -160px;
+    }
+
+     .footer_container {
+        padding: 50px 20px;
+    }
+
+    .footer_inner {
+        flex-direction: column;
+    }
+
+    .footer_inner .footer_form {
+        order: 2;
+        min-width: 280px;
+        gap: 25px;
+        padding: 40px 18px;
+    }
+
+    .footer_form p {
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--color6);
+    }
+
+    .footer_form input {
+         padding: 18px 26px;
+         font-size: 14px;
+         line-height: 18px;
+
+    }
+
+    .footer_form button {
+        padding: 18px 67px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer_info {
+        order: 1;
+    }
+
+    .footer_title {
+        margin: 0px 0px 15px;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+}
