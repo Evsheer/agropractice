@@ -280,4 +280,15 @@
         text-align: center;
     }
 
+    .footer_links {
+     justify-content: center;
+    
+    }
+
+    .footer_background_text {
+        font-size: 36px;
+        line-height: 46px;
+        left: 36px;
+        bottom: 468px;        
+    }
 }
